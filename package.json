@@ -1,0 +1,17 @@
+{
+  "name": "startup-scout",
+  "version": "0.1.0",
+  "description": "CLI tool to evaluate startups against challenge criteria using LLM analysis.",
+  "license": "MIT",
+  "bin": {
+    "startup-scout": "dist/startup-scout.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "ts-node src/startup-scout.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
